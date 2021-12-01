@@ -1,0 +1,6 @@
+*.elf
+*.ELF
+*.o
+*.swp
+*.tmp
+githash.h
