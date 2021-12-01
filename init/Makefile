@@ -11,12 +11,8 @@
 IOP_BIN  = init.irx
 IOP_OBJS = init.o imports.o
 
-IOP_OBJS_DIR = ./
-IOP_BIN_DIR = ./
-IOP_SRC_DIR = ./
-IOP_INC_DIR = ./
-
-
+IOP_SRC_DIR = 
+IOP_OBJS_DIR = 
 
 IOP_CFLAGS  +=  -fno-builtin -G0 -O2  -D_IOP
 IOP_LDFLAGS += -s
