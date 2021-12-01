@@ -17,7 +17,7 @@ IOP_INC_DIR = ./
 IOP_BIN  = init.irx
 IOP_OBJS = init.o imports.o
 
-IOP_CFLAGS  +=  -fno-builtin -G0 -O2 
+IOP_CFLAGS  +=  -fno-builtin -G0 -O2  -D_IOP
 IOP_LDFLAGS += -s
 
 all: $(IOP_OBJS_DIR) $(IOP_BIN_DIR) $(IOP_BIN) copy
