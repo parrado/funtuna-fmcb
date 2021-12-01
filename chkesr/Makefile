@@ -48,4 +48,4 @@ copy:
 	cp chkesr.irx ../chkesr.irx
 
 include $(PS2SDK)/Defs.make
-include $(PS2SDKSRC)/iop/Rules.make
+include $(PS2SDK)/samples/Makefile.iopglobal
