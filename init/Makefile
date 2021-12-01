@@ -8,19 +8,20 @@
 #
 # $Id: Makefile 577 2004-09-14 14:41:46Z pixel $
 
+IOP_BIN  = init.irx
+IOP_OBJS = init.o imports.o
 
 IOP_OBJS_DIR = ./
 IOP_BIN_DIR = ./
 IOP_SRC_DIR = ./
 IOP_INC_DIR = ./
 
-IOP_BIN  = init.irx
-IOP_OBJS = init.o imports.o
+
 
 IOP_CFLAGS  +=  -fno-builtin -G0 -O2  -D_IOP
 IOP_LDFLAGS += -s
 
-all: $(IOP_OBJS_DIR) $(IOP_BIN_DIR) $(IOP_BIN) copy
+all: $(IOP_BIN) copy
 
 clean:
 	rm -f -r $(IOP_OBJS) $(IOP_BIN)
