@@ -1,3 +1,0 @@
-make[1]: Entering directory '/home/parrado/Desktop/Funtuna-Fork/FreeMcBoot/elf_loader'
-rm -f -r elf_loader.o elf_loader.elf
-make[1]: Leaving directory '/home/parrado/Desktop/Funtuna-Fork/FreeMcBoot/elf_loader'
